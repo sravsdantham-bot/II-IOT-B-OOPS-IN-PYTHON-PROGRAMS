@@ -26,3 +26,11 @@ cart = ShoppingCart()
 cart.add_item("Papaya",100)
 cart.add_item("Guva",200)
 cart.add_item("Orange",65)
+
+print("Curent Items in Cart:")
+for item in cart.items:
+    print(item[0],"-",item[1])
+
+
+total_qty=cart.calculate_total()
+print("Total Quantity:",total_qty)
