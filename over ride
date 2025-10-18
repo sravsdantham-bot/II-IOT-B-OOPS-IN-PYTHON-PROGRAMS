@@ -1,0 +1,16 @@
+class Vehicle:
+    def describe(self):
+        print("This is a generic vechile.")
+        
+class Car(Vehicle) :
+     def describe(self):
+     print("This is sporty car.")
+     
+class motercycle(vehicle) :
+    def describe(self):
+        print("This is a fast Motercycle.")
+        
+vechile = Vichle()
+car = Car()
+motercycle = Motercycle()
+vechile.describe()
